@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: insper-embarcados/actions-cppcheck@v1
         with:
-          c_file: main/main.c
+          c_file: src/main.cpp
