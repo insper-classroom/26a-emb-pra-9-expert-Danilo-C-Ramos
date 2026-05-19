@@ -426,7 +426,7 @@ void vPortInitialiseBlocks( void )
 {
     /* This just exists to keep the linker quiet. */
 }
-/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------
 
 void * pvPortCalloc( size_t xNum,
                      size_t xSize )
@@ -445,7 +445,7 @@ void * pvPortCalloc( size_t xNum,
 
     return pv;
 }
-/*-----------------------------------------------------------*/
+-----------------------------------------------------------*/
 
 static void prvHeapInit( void ) /* PRIVILEGED_FUNCTION */
 {
